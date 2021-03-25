@@ -15,6 +15,7 @@ def about():
 def blog_world():
     return 'Welcome to the blog world!!'
 
+
 @app.route('/blog/2020/dogs')
 def dogs_blog():
     return 'This is a blog on dogs!!'
